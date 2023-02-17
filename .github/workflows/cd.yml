@@ -11,7 +11,7 @@ jobs:
 
   streamlit:
     runs-on: ubuntu-20.04
-    timeout-minutes: 10
+    timeout-minutes: 4
 
     steps:
       - name: checkout code
@@ -30,4 +30,4 @@ jobs:
 
       - name: streamlit run
         run: |
-          streamlit run src/streamlit_app.py
+          streamlit run src/streamlit_app.py --server.headless False
