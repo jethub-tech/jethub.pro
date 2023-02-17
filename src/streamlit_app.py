@@ -16,7 +16,7 @@ def main() -> None:
     )
 
     st.image(
-        Image.open("./images/logo-invert.png"),
+        Image.open("./static/logo-invert.png"),
         width=180,
         clamp=True,
     )
@@ -57,7 +57,7 @@ def main() -> None:
     st.markdown("----")
     st.write("## Пример прототипа")
     st.image(
-        Image.open("./images/example_mvp.png"),
+        Image.open("./static/example_mvp.png"),
         use_column_width="auto",
         clamp=True,
     )
