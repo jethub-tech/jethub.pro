@@ -30,4 +30,5 @@ jobs:
 
       - name: streamlit run
         run: |
-          streamlit run src/streamlit_app.py --server.headless True
+          # streamlit run src/streamlit_app.py --server.headless True
+          python -m streamlit run src/streamlit_app.py http.server 1234
