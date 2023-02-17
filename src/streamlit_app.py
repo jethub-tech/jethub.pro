@@ -1,7 +1,8 @@
 import streamlit as st
 from PIL import Image
 
-def main() -> None:    
+
+def main() -> None:
     st.set_page_config(
         page_title="JetHub.pro",
         page_icon="https://github.com/jethub-tech/jethub.pro/blob/master/images/logo.png",
@@ -14,13 +15,20 @@ def main() -> None:
         # }
     )
 
-    st.image(Image.open("./images/logo-invert.png"), width=180, clamp=True,)
+    st.image(
+        Image.open("./images/logo-invert.png"),
+        width=180,
+        clamp=True,
+    )
 
     st.title("JetHub")
     st.subheader("Делаем ML инструменты для повышения эффективности процесса DevSecOps")
-    
+
     st.markdown("----")
-    col_for_1, col_for_2, col_for_3 = st.columns(spec=3, gap="small",)
+    col_for_1, col_for_2, col_for_3 = st.columns(
+        spec=3,
+        gap="small",
+    )
 
     with col_for_1:
         st.write(
@@ -48,18 +56,24 @@ def main() -> None:
 
     st.markdown("----")
     st.write("## Пример прототипа")
-    st.image(Image.open("./images/example_mvp.png"), use_column_width="auto", clamp=True,)
+    st.image(
+        Image.open("./images/example_mvp.png"),
+        use_column_width="auto",
+        clamp=True,
+    )
 
     st.markdown("----")
-    col_feedback_1, col_feedback_2 = st.columns(spec=2, gap="large",)
-    
+    col_feedback_1, col_feedback_2 = st.columns(
+        spec=2,
+        gap="large",
+    )
+
     with col_feedback_1:
         st.write("# [Написать письмо](mailto:babenkormn@gmail.com)")
 
     with col_feedback_2:
         st.write("# [Написать в telegram](https://t.me/bblazee)")
 
+
 if __name__ == "__main__":
     main()
-
-    # 
