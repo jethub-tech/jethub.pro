@@ -18,5 +18,5 @@
 
 ----
 
-### [Написать письмо](mailto:babenkormn@gmail.com)
-### [Написать в telegram](https://t.me/bblazee)
+# [Написать письмо](mailto:babenkormn@gmail.com)
+# [Написать в telegram](https://t.me/bblazee)
