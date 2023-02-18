@@ -16,3 +16,8 @@
 # Пример прототипа
 
 ![](./static/example_mvp.png)
+
+----
+
+### [Написать письмо](mailto:babenkormn@gmail.com)
+### [Написать в telegram](https://t.me/bblazee)
